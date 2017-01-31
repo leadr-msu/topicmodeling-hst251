@@ -44,7 +44,6 @@ Topic Modeling finds words that co-occur within texts at high rates, while takin
 32. http://www.nationalreview.com/article/433696/national-security-agency-panama-papers-prove-its-worth?target=author&tid=1022644
 33. http://thehackernews.com/2016/04/panama-paper-corruption.html
 34. https://www.helpnetsecurity.com/2016/04/07/panama-papers-lax-security-practices/
-35. this otherlink
 
 2. Each person will read two articles about the Panama Papers (see list below for your assigned article)
 
