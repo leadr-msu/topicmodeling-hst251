@@ -1,12 +1,12 @@
-# Manually Topic Modeling the Panama Papers
+# Manually Topic Modeling Panama Papers News Coverage
 Created by Brandon Locke
 ## Learning Goals
 > * Demonstrate in simple language how topic modeling works
 > * Gain first-hand experience in locating and recognizing topics within a text
 > * Know strategies for analyzing corpora and investigating research questions with Topic Modeling Tool results
 
-## Panama Papers Controversy
-The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news released in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. Following the news, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#all-articles).)
+## "Panama Papers" News Story
+The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news coverage in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. In the weeks following the leak, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#all-articles).)
 
 ## Manual Topic Modeling Activity
 Prior to class: Read [Brett, Megan R. "Topic Modeling: A Basic Introduction." Journal of Digital Humanities.](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
