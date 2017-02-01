@@ -12,6 +12,8 @@ Today you'll skim a few articles and try your best to imitate topic modeling alg
 
 Before you start reading your articles, take a look at [the total word usage for all 34 articles](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the corpus. Remember, you’re only looking at words used, not concepts or themes that you're able to discern from them. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
 
+> **Do your words seem to make sense as one or more topics, or do they seem to be random?**
+
 ## Comparing and Analyzing Results
 I used [Topic Modeling Tool (TMT)](https://code.google.com/archive/p/topic-modeling-tool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic.) 
 
