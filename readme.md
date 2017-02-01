@@ -6,7 +6,7 @@ The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12
 ## Manual Topic Modeling Activity
 [Slides are available here](https://docs.google.com/presentation/d/1bSSdl_B1MVvqS3iNaxLDnKLfehyY9Z9rcPml14r7Tpg/edit?usp=sharing)
 
-Topic Modeling finds words that co-occur within texts at high rates, while taking into consideration the usage of words across the corpus. So, for example, "Panama" will almost certainly be used at least once in every article (the average is about 6.3 times per article). This means that "Panama" will only be included in an article's keywords if it's used a significant amount of times — certainly more than just 2-3 times.
+Topic Modeling is an algorithm that finds [“a recurring pattern of co-occurring words”](https://twitter.com/footnotesrising/status/264823621799780353) in a corpus of text. This does take overall usage of a word across the entire corpus into consideration, so words used often in many documents will not appear in every topic. So, for example, "Panama" will almost certainly be used at least once in every article — the average is about 6.3 times per article. However, "Panama" will only be included in an article's keywords if it's used a significant amount of times *and* has close usage relationships with other words.
 
 Today you'll skim a few articles and try your best to imitate topic modeling algorithms. Your [assigned articles](#article-assignments) can be found below.
 
