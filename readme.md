@@ -10,21 +10,21 @@ Topic Modeling finds words that co-occur within texts at high rates, while takin
 
 Today you'll skim a few articles and try your best to imitate topic modeling algorithms. Your [assigned articles](#article-assignments) can be found below.
 
-Before you start reading your articles, take a look at [the total word usage for all 34 articles](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the selection. Remember, you’re only looking at words used, not concepts or themes. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
+Before you start reading your articles, take a look at [the total word usage for all 34 articles](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the corpus. Remember, you’re only looking at words used, not concepts or themes that you're able to discern from them. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
 
 ## Comparing and Analyzing Results
-I used [Topic Modeling Tool (TMT)](https://code.google.com/archive/p/topic-modeling-tool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic). 
+I used [Topic Modeling Tool (TMT)](https://code.google.com/archive/p/topic-modeling-tool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic.) 
 
-> *Are there any identifiable "topics" here? Are there any "topics" that don't seem to make sense?*
+> **Are there any identifiable "topics" here? Are there any "topics" that don't seem to make sense?**
 
 If you click on one of the topics, you'll see the list of documents ordered by how closely each document corresponds with the topic. The number in parentheses is the number of times words in the topic appear in the document. Now click on one of the text files. This will show you the full text of the file, and it will also show the topics that align closely with your topic.
 
-Take a few minutes and explore these results. Look at the articles you read and see how closely your results matched the TMT results.
+Take a few minutes and explore these results. Click through the network of topics and documents and see if you can find any patterns. Look at the articles you read and see how closely your results matched the TMT results.
 
 Once you've examined the results with 20 topics, take a look at the [same articles run with 40 topics](http://brandontlocke.com/panamapapers40topics/). 
 
-> *What differences do you see between 20 topics and 40 topics?*
-> *Which set do you think are most useful to you? Why?*
+> **What differences do you see between 20 topics and 40 topics?**
+> **Which set do you think are most useful to you? Why?**
 
 ## Article Assignments
 * Doc 01 [Jake](https://www.wordfence.com/blog/2016/04/panama-papers-wordpress-email-connection/)
