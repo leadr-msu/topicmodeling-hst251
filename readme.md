@@ -1,4 +1,5 @@
 # Manually Topic Modeling the Panama Papers
+Created by Brandon Locke
 ## Learning Goals
 > * Demonstrate in simple language how topic modeling works
 > * Gain first-hand experience in locating and recognizing topics within a text
