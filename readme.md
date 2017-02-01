@@ -1,15 +1,47 @@
-#Manually Topic Modeling the Panama Papers
+# Manually Topic Modeling the Panama Papers
 
-##Panama Papers Controversy
-The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news released in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. Following the news, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#selected-articles).)
+## Panama Papers Controversy
+The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news released in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. Following the news, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#all-articles).)
 
-##Manual Topic Modeling Activity
-Today you'll skim a few articles and try your best to imitate the
+## Manual Topic Modeling Activity
+[Slides are available here](https://docs.google.com/presentation/d/1bSSdl_B1MVvqS3iNaxLDnKLfehyY9Z9rcPml14r7Tpg/edit?usp=sharing)
 
-Topic Modeling finds words that co-occur within texts at high rates, while taking into consideration the usage of words across the corpus. So, for example, "Panama" will be used at least once in every article (the average is about 6.3 times per article). This means that "Panama" will only be included in an article's keywords if it's used a significant amount of times — certainly more than just 2-3 times.
- 
+Topic Modeling finds words that co-occur within texts at high rates, while taking into consideration the usage of words across the corpus. So, for example, "Panama" will almost certainly be used at least once in every article (the average is about 6.3 times per article). This means that "Panama" will only be included in an article's keywords if it's used a significant amount of times — certainly more than just 2-3 times.
 
-## Selected Articles
+Today you'll skim a few articles and try your best to imitate topic modeling algorithms. Your [assigned articles](#article-assignments) can be found below.
+
+Before you start reading your articles, take a look at [the total word usage for all 34 articles](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the selection. Remember, you’re only looking at words used, not concepts or themes. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
+
+## Comparing and Analyzing Results
+I used [Topic Modeling Tool (TMT)](https://code.google.com/archive/p/topic-modeling-tool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic). 
+
+> *Are there any identifiable "topics" here? Are there any "topics" that don't seem to make sense?*
+
+If you click on one of the topics, you'll see the list of documents ordered by how closely each document corresponds with the topic. The number in parentheses is the number of times words in the topic appear in the document. Now click on one of the text files. This will show you the full text of the file, and it will also show the topics that align closely with your topic.
+
+Take a few minutes and explore these results. Look at the articles you read and see how closely your results matched the TMT results.
+
+Once you've examined the results with 20 topics, take a look at the [same articles run with 40 topics](http://brandontlocke.com/panamapapers40topics/). 
+
+> *What differences do you see between 20 topics and 40 topics?*
+> *Which set do you think are most useful to you? Why?*
+
+## Article Assignments
+* Doc 01 [Jake](https://www.wordfence.com/blog/2016/04/panama-papers-wordpress-email-connection/)
+* Doc 03 [Jake](https://www.wordfence.com/blog/2016/04/mossack-fonseca-breach-vulnerable-slider-revolution/)
+* Doc 05 [Asia](http://www.theguardian.com/politics/2016/apr/09/david-cameron-to-launch-local-election-campaign-as-panama-papers-row-rumbles-on)
+* Doc 07 [Asia](http://www.independent.co.uk/news/uk/politics/panama-papers-david-cameron-to-announce-tax-taskforce-to-investigate-revelations-as-he-seeks-to-a6976891.html)
+* Doc 10 [Sarah](http://www.nytimes.com/2016/04/06/world/europe/panama-papers-iceland.html)
+* Doc 11 [Sarah](http://observer.com/2016/04/panama-papers-reveal-clintons-kremlin-connection/)
+* Doc 12 [Khalil](http://www.vox.com/2016/4/5/11370646/panama-papers-iceland-gunnlaugsson-resigned)
+* Doc 21 [Khalil](http://www.politico.com/agenda/story/2016/04/the-panama-papers-where-are-the-americans-000083)
+* Doc 22 [Nicole](http://www.nbcnews.com/storyline/panama-papers/why-are-americans-not-included-panama-papers-n551081)
+* Doc 28 [Nicole](http://www.darkreading.com/vulnerabilities—threats/7-lessons-from-the-panama-papers-leak/d/d-id/1324976)
+* Doc 29 [Deanna](http://www.wired.co.uk/news/archive/2016-04/06/panama-papers-mossack-fonseca-website-security-problems)
+* Doc 32 [Deanna](http://www.nationalreview.com/article/433696/national-security-agency-panama-papers-prove-its-worth?target=author&tid=1022644)
+* Doc 34 [Brandon](https://www.helpnetsecurity.com/2016/04/07/panama-papers-lax-security-practices/)
+
+## All Articles
 1. https://www.wordfence.com/blog/2016/04/panama-papers-wordpress-email-connection/
 2. http://gizmodo.com/is-this-how-a-hacker-got-the-panama-papers-1769836788
 3. https://www.wordfence.com/blog/2016/04/mossack-fonseca-breach-vulnerable-slider-revolution/
@@ -44,7 +76,3 @@ Topic Modeling finds words that co-occur within texts at high rates, while takin
 32. http://www.nationalreview.com/article/433696/national-security-agency-panama-papers-prove-its-worth?target=author&tid=1022644
 33. http://thehackernews.com/2016/04/panama-paper-corruption.html
 34. https://www.helpnetsecurity.com/2016/04/07/panama-papers-lax-security-practices/
-
-2. Each person will read two articles about the Panama Papers (see list below for your assigned article)
-
-3. After you’ve read the article, skim back through and write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in typical language or writing – this can be only once, if you think the word is significantly rare or specific.For example, Panama, used even once or twice, would probably be significant because it’s not a word that people use very often. Remember, you’re only looking at words used, not concepts or themes. You’re imitating a computer algorithm, and algorithms are not particularly smart.
