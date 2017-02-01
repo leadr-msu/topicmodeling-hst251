@@ -1,4 +1,8 @@
 # Manually Topic Modeling the Panama Papers
+## Learning Goals
+> * Demonstrate in simple language how topic modeling works
+> * Gain first-hand experience in locating and recognizing topics within a text
+> * Know strategies for analyzing corpora and investigating research questions with Topic Modeling Tool results
 
 ## Panama Papers Controversy
 The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news released in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. Following the news, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#all-articles).)
