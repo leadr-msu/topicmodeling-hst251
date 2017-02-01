@@ -6,7 +6,7 @@ Created by Brandon Locke
 > * Know strategies for analyzing corpora and investigating research questions with Topic Modeling Tool results
 
 ## "Panama Papers" News Story
-The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news coverage in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. In the weeks following the leak, I selected 34 articles about the issue and extracted the text content into text folders ([see articles below](#all-articles).)
+The ["Panama Papers"](https://en.wikipedia.org/wiki/Panama_Papers) were about 12 million leaked documents that shed light upon people around the world who were hiding money in offshore entities through the Panamanian company Mossack Fonseca. The news coverage in the immediate aftermath of the leak tended to focus on a wide range of issues from the technical aspects of a hack to the implications of various world leaders and celebrities who were exposed. In the weeks following the leak, I selected 34 articles about the issue and extracted the text content into text files ([see articles below](#all-articles).)
 
 ## Manual Topic Modeling Activity
 Prior to class: Read [Brett, Megan R. "Topic Modeling: A Basic Introduction." Journal of Digital Humanities.](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
@@ -17,7 +17,7 @@ Topic Modeling is an algorithm that finds [“a recurring pattern of co-occurrin
 
 Today you'll skim a few articles and try your best to imitate topic modeling algorithms. Your [assigned articles](#article-assignments) can be found below.
 
-Before you start reading your articles, take a look at [the total word usage for all 34 articles](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the corpus. Remember, you’re only looking at words used, not concepts or themes that you're able to discern from them. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
+Before you start reading your articles, take a look at [the total word usage for all 34 articles (stop words removed)](https://docs.google.com/spreadsheets/d/1db2Rqx08frhsVMZpjUfepxYtrpu__Ag8mXKCVlDcrNc/edit?usp=sharing). Once you have glanced at the list, read your first article. Write (or type) out words that seem unique to the article. This means words that are used disproportionally more often in your article than in others in the corpus. Remember, you’re only looking at words used, not concepts or themes that you're able to discern from them. You’re imitating a computer algorithm, and algorithms are not particularly smart. Once you've finished your first article, do your second.
 
 > **Do your words seem to make sense as one or more topics, or do they seem to be random?**
 
