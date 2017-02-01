@@ -22,7 +22,7 @@ Before you start reading your articles, take a look at [the total word usage for
 > **Do your words seem to make sense as one or more topics, or do they seem to be random?**
 
 ## Comparing and Analyzing Results
-I used [Topic Modeling Tool (TMT)](https://code.google.com/archive/p/topic-modeling-tool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic.) 
+I used [Topic Modeling Tool (TMT)](https://sourceforge.net/projects/topicmodeltool/), an easy-to-use tool for using [MALLET](https://github.com/mimno/Mallet) for topic modeling. TMT produces a set of CSV files and a set of HTML files with your output. Take a look at [these results with 20 topics](http://brandontlocke.com/panamapapers20topics/). (Remember, these aren't labeled topics, they're clusters of words that likely represent a topic.) 
 
 > **Are there any identifiable "topics" here? Are there any "topics" that don't seem to make sense?**
 
