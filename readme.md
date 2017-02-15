@@ -85,3 +85,6 @@ Once you've examined the results with 20 topics, take a look at the [same articl
 32. http://www.nationalreview.com/article/433696/national-security-agency-panama-papers-prove-its-worth?target=author&tid=1022644
 33. http://thehackernews.com/2016/04/panama-paper-corruption.html
 34. https://www.helpnetsecurity.com/2016/04/07/panama-papers-lax-security-practices/
+
+-----
+###Return to [LEADR's Resources list](https://github.com/leadr-msu/Resources)
