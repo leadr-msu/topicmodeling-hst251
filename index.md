@@ -87,4 +87,4 @@ Once you've examined the results with 20 topics, take a look at the [same articl
 34. https://www.helpnetsecurity.com/2016/04/07/panama-papers-lax-security-practices/
 
 -----
-### Return to [LEADR's Resources list](https://github.com/leadr-msu/Resources)
+### Return to [LEADR's Resources list](http://leadr-msu.github.io/Resources/)
